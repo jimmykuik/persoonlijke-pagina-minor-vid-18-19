@@ -47,9 +47,7 @@ main {
     justify-content: center;
 }
 
-main.groepsfotoMain {
-    display: block;
-}
+
 
 main > section {
     width: 400px;
@@ -61,8 +59,27 @@ main > section.groepsfoto {
     margin: 1em 1em 2em 1em;
 }
 
+main > section.product {
+    width: 600px;
+    margin: 1em 1em 2em 1em;
+}
+
+main > section.product2 {
+    width: 1000px;
+    margin: 1em 1em 2em 1em;
+}
+
 main > section.groepsfoto img {
     width: 100%;
+}
+
+main > section.product img {
+    width: 100%;
+}
+
+main > p {
+    width: 600px;
+    margin-bottom: 3em;
 }
 
 main > section img, main > section a img {
